@@ -90,7 +90,7 @@ def push_to_remote():
     subgroups = input('Add any subgroups needed, include / between subgroups. Leave empty if in top group:').strip()
     if subgroups and not subgroups.endswith('/'):
         subgroups += '/'
-    remote_url = f"git@gitlab.com:goap/{subgroups}{repo_name}.git"
+    remote_url = f"git@gitlab.allterco.net:shellytech_slo/{subgroups}{repo_name}.git"
     remote_name = "origin"
 
     remotes = run_command_output("git remote").splitlines()
