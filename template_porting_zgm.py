@@ -4,8 +4,8 @@ import subprocess
 import argparse
 
 # Constants
-example_container = '_example-sdk_2024121-EFR32ZG23_'
-example_name = '_EXAMPLE-SDK_2024121-EFR32ZG23_'
+example_container = '_example-sdk_2024123-ZGM230SA_'
+example_name = '_EXAMPLE-SDK_2024123-ZGM230SA_'
 replacement_instructions_file = 'replacements.txt'
 
 # Global flags
